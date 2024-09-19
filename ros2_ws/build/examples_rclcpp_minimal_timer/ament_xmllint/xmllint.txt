@@ -1,0 +1,3 @@
+-- run_test.py: invoking following command in '/home/user1/ros2_ws/src/examples/rclcpp/timers/minimal_timer':
+ - /opt/ros/foxy/bin/ament_xmllint --xunit-file /home/user1/ros2_ws/build/examples_rclcpp_minimal_timer/test_results/examples_rclcpp_minimal_timer/xmllint.xunit.xml
+
