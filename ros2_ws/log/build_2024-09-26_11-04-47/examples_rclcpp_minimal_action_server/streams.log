@@ -1,0 +1,84 @@
+[0.054s] Invoking command in '/home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user1/install/py_srvcli:/home/user1/install/py_pubsub:/home/user1/install/my_package:/home/user1/install/examples_rclpy_minimal_subscriber:/home/user1/install/examples_rclpy_minimal_service:/home/user1/install/examples_rclpy_minimal_publisher:/home/user1/install/examples_rclpy_minimal_client:/home/user1/install/examples_rclpy_minimal_action_server:/home/user1/install/examples_rclpy_minimal_action_client:/home/user1/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/user1/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server
+[0.204s] -- The C compiler identification is GNU 9.4.0
+[0.298s] -- The CXX compiler identification is GNU 9.4.0
+[0.307s] -- Check for working C compiler: /usr/bin/cc
+[0.460s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.461s] -- Detecting C compiler ABI info
+[0.613s] -- Detecting C compiler ABI info - done
+[0.632s] -- Detecting C compile features
+[0.632s] -- Detecting C compile features - done
+[0.636s] -- Check for working CXX compiler: /usr/bin/c++
+[0.788s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.789s] -- Detecting CXX compiler ABI info
+[0.948s] -- Detecting CXX compiler ABI info - done
+[0.980s] -- Detecting CXX compile features
+[0.981s] -- Detecting CXX compile features - done
+[0.987s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.037s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.037s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.421s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.501s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.743s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.795s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.948s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.230s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.331s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.337s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.338s] -- Looking for pthread.h
+[2.520s] -- Looking for pthread.h - found
+[2.521s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.868s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.868s] -- Looking for pthread_create in pthreads
+[3.074s] -- Looking for pthread_create in pthreads - not found
+[3.075s] -- Looking for pthread_create in pthread
+[3.362s] -- Looking for pthread_create in pthread - found
+[3.371s] -- Found Threads: TRUE  
+[3.775s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[3.841s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.018s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.020s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.020s] -- Configured cppcheck include dirs: 
+[4.021s] -- Configured cppcheck exclude dirs and/or files: 
+[4.022s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.022s] -- Configured cpplint exclude dirs and/or files: 
+[4.023s] -- Added test 'lint_cmake' to check CMake code style
+[4.026s] -- Added test 'uncrustify' to check C / C++ code style
+[4.026s] -- Configured uncrustify additional arguments: 
+[4.027s] -- Added test 'xmllint' to check XML markup files
+[4.035s] -- Configuring done
+[4.058s] -- Generating done
+[4.070s] -- Build files have been written to: /home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server
+[4.085s] Invoked command in '/home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user1/install/py_srvcli:/home/user1/install/py_pubsub:/home/user1/install/my_package:/home/user1/install/examples_rclpy_minimal_subscriber:/home/user1/install/examples_rclpy_minimal_service:/home/user1/install/examples_rclpy_minimal_publisher:/home/user1/install/examples_rclpy_minimal_client:/home/user1/install/examples_rclpy_minimal_action_server:/home/user1/install/examples_rclpy_minimal_action_client:/home/user1/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake /home/user1/ros2_ws/src/examples/rclcpp/actions/minimal_action_server -DCMAKE_INSTALL_PREFIX=/home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server
+[4.098s] Invoking command in '/home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user1/install/py_srvcli:/home/user1/install/py_pubsub:/home/user1/install/my_package:/home/user1/install/examples_rclpy_minimal_subscriber:/home/user1/install/examples_rclpy_minimal_service:/home/user1/install/examples_rclpy_minimal_publisher:/home/user1/install/examples_rclpy_minimal_client:/home/user1/install/examples_rclpy_minimal_action_server:/home/user1/install/examples_rclpy_minimal_action_client:/home/user1/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j2 -l2
+[4.244s] [35m[1mScanning dependencies of target action_server_member_functions[0m
+[4.255s] [35m[1mScanning dependencies of target action_server_not_composable[0m
+[4.424s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server_member_functions.dir/member_functions.cpp.o[0m
+[4.436s] [ 50%] [32mBuilding CXX object CMakeFiles/action_server_not_composable.dir/not_composable.cpp.o[0m
+[13.378s] [ 75%] [32m[1mLinking CXX executable action_server_not_composable[0m
+[13.797s] [100%] [32m[1mLinking CXX executable action_server_member_functions[0m
+[14.510s] [100%] Built target action_server_not_composable
+[14.677s] [100%] Built target action_server_member_functions
+[14.731s] Invoked command in '/home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user1/install/py_srvcli:/home/user1/install/py_pubsub:/home/user1/install/my_package:/home/user1/install/examples_rclpy_minimal_subscriber:/home/user1/install/examples_rclpy_minimal_service:/home/user1/install/examples_rclpy_minimal_publisher:/home/user1/install/examples_rclpy_minimal_client:/home/user1/install/examples_rclpy_minimal_action_server:/home/user1/install/examples_rclpy_minimal_action_client:/home/user1/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server -- -j2 -l2
+[15.105s] Invoking command in '/home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user1/install/py_srvcli:/home/user1/install/py_pubsub:/home/user1/install/my_package:/home/user1/install/examples_rclpy_minimal_subscriber:/home/user1/install/examples_rclpy_minimal_service:/home/user1/install/examples_rclpy_minimal_publisher:/home/user1/install/examples_rclpy_minimal_client:/home/user1/install/examples_rclpy_minimal_action_server:/home/user1/install/examples_rclpy_minimal_action_client:/home/user1/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server
+[15.138s] -- Install configuration: ""
+[15.138s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable
+[15.140s] -- Set runtime path of "/home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_not_composable" to ""
+[15.140s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions
+[15.142s] -- Set runtime path of "/home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/lib/examples_rclcpp_minimal_action_server/action_server_member_functions" to ""
+[15.145s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_server
+[15.145s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_server
+[15.145s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.sh
+[15.145s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/ament_prefix_path.dsv
+[15.146s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.sh
+[15.153s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/environment/path.dsv
+[15.153s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.bash
+[15.153s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.sh
+[15.153s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.zsh
+[15.153s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/local_setup.dsv
+[15.153s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.dsv
+[15.154s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_server
+[15.154s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig.cmake
+[15.154s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/cmake/examples_rclcpp_minimal_action_serverConfig-version.cmake
+[15.154s] -- Installing: /home/user1/ros2_ws/install/examples_rclcpp_minimal_action_server/share/examples_rclcpp_minimal_action_server/package.xml
+[15.157s] Invoked command in '/home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user1/install/py_srvcli:/home/user1/install/py_pubsub:/home/user1/install/my_package:/home/user1/install/examples_rclpy_minimal_subscriber:/home/user1/install/examples_rclpy_minimal_service:/home/user1/install/examples_rclpy_minimal_publisher:/home/user1/install/examples_rclpy_minimal_client:/home/user1/install/examples_rclpy_minimal_action_server:/home/user1/install/examples_rclpy_minimal_action_client:/home/user1/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/user1/ros2_ws/build/examples_rclcpp_minimal_action_server

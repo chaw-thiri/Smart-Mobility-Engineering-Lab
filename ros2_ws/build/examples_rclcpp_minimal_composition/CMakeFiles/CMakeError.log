@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/user1/ros2_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_2be1d/fast && /usr/bin/make -f CMakeFiles/cmTC_2be1d.dir/build.make CMakeFiles/cmTC_2be1d.dir/build
+Run Build Command(s):/usr/bin/make cmTC_73121/fast && /usr/bin/make -f CMakeFiles/cmTC_73121.dir/build.make CMakeFiles/cmTC_73121.dir/build
 make[1]: Entering directory '/home/user1/ros2_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2be1d.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2be1d.dir/src.c.o   -c /home/user1/ros2_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_2be1d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2be1d.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_2be1d.dir/src.c.o  -o cmTC_2be1d 
-/usr/bin/ld: CMakeFiles/cmTC_2be1d.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_73121.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_73121.dir/src.c.o   -c /home/user1/ros2_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_73121
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73121.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_73121.dir/src.c.o  -o cmTC_73121 
+/usr/bin/ld: CMakeFiles/cmTC_73121.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_2be1d.dir/build.make:87: cmTC_2be1d] Error 1
+make[1]: *** [CMakeFiles/cmTC_73121.dir/build.make:87: cmTC_73121] Error 1
 make[1]: Leaving directory '/home/user1/ros2_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_2be1d/fast] Error 2
+make: *** [Makefile:121: cmTC_73121/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/user1/ros2_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_18804/fast && /usr/bin/make -f CMakeFiles/cmTC_18804.dir/build.make CMakeFiles/cmTC_18804.dir/build
+Run Build Command(s):/usr/bin/make cmTC_94e89/fast && /usr/bin/make -f CMakeFiles/cmTC_94e89.dir/build.make CMakeFiles/cmTC_94e89.dir/build
 make[1]: Entering directory '/home/user1/ros2_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_18804.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_18804.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_18804
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18804.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_18804.dir/CheckFunctionExists.c.o  -o cmTC_18804  -lpthreads 
+Building C object CMakeFiles/cmTC_94e89.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_94e89.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_94e89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94e89.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_94e89.dir/CheckFunctionExists.c.o  -o cmTC_94e89  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_18804.dir/build.make:87: cmTC_18804] Error 1
+make[1]: *** [CMakeFiles/cmTC_94e89.dir/build.make:87: cmTC_94e89] Error 1
 make[1]: Leaving directory '/home/user1/ros2_ws/build/examples_rclcpp_minimal_composition/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_18804/fast] Error 2
+make: *** [Makefile:121: cmTC_94e89/fast] Error 2
 
 
 

@@ -1,8 +1,0 @@
-copyright 1 1.52174
-cppcheck 1 1.22445
-cpplint 1 1.2051
-lint_cmake 1 1.01096
-uncrustify 1 1.21212
-xmllint 0 0
----
-xmllint

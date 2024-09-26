@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='user1',
     maintainer_email='chawthiri177@gmail.com',
-    description='Python Client Server Tutorial',
+    description='A Custom Message and Server Creation',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
