@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.000756] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000912] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001045] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001178] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001318] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001447] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001549] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001676] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001882] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001980] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.004890] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.005023] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.005065] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.005181] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.005299] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.005388] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.005893] (-) JobUnselected: {'identifier': 'my_package'}
+[0.006032] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.006170] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.006321] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.006488] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.006606] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099148] (-) TimerEvent: {}
+[0.200628] (-) TimerEvent: {}
+[0.301483] (-) TimerEvent: {}
+[0.402290] (-) TimerEvent: {}
+[0.503131] (-) TimerEvent: {}
+[0.604028] (-) TimerEvent: {}
+[0.704824] (-) TimerEvent: {}
+[0.805658] (-) TimerEvent: {}
+[0.906668] (-) TimerEvent: {}
+[1.008525] (-) TimerEvent: {}
+[1.109988] (-) TimerEvent: {}
+[1.210700] (-) TimerEvent: {}
+[1.311417] (-) TimerEvent: {}
+[1.412256] (-) TimerEvent: {}
+[1.513024] (-) TimerEvent: {}
+[1.614030] (-) TimerEvent: {}
+[1.714890] (-) TimerEvent: {}
+[1.815629] (-) TimerEvent: {}
+[1.916512] (-) TimerEvent: {}
+[2.017295] (-) TimerEvent: {}
+[2.118054] (-) TimerEvent: {}
+[2.218997] (-) TimerEvent: {}
+[2.319872] (-) TimerEvent: {}
+[2.347161] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/user1/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/user1/ros2_ws/build/py_pubsub/install.log', '--install-scripts', '$base/lib/py_pubsub', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user1/ros2_ws/src/py_pubsub', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'user1', 'SSH_AGENT_PID': '1152', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/user1', 'OLDPWD': '/home/user1/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '946', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'user1', 'JOURNAL_STREAM': '8:47431', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1187,unix/ubuntu:/tmp/.ICE-unix/1187', 'INVOCATION_ID': '744fcab11b61403b9ca63b24c954e869', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/094fec83_f10e_4e01_9180_85cb579d05c1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user1/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user1/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws/install/py_pubsub/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[2.420425] (-) TimerEvent: {}
+[2.521561] (-) TimerEvent: {}
+[2.622472] (-) TimerEvent: {}
+[2.723606] (-) TimerEvent: {}
+[2.824374] (-) TimerEvent: {}
+[2.925506] (-) TimerEvent: {}
+[3.026427] (-) TimerEvent: {}
+[3.127367] (-) TimerEvent: {}
+[3.228206] (-) TimerEvent: {}
+[3.308243] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.310660] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[3.312713] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[3.313486] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[3.314337] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[3.315620] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[3.328620] (-) TimerEvent: {}
+[3.429838] (-) TimerEvent: {}
+[3.474227] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[3.477528] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[3.478773] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[3.479115] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[3.480015] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[3.484112] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[3.491208] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[3.491890] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.498729] (py_pubsub) StdoutLine: {'line': b"removing '/home/user1/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.500065] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/user1/ros2_ws/install/py_pubsub/lib/python3.8/site-packages/py_pubsub-0.0.0-py3.8.egg-info\n'}
+[3.503562] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[3.530182] (-) TimerEvent: {}
+[3.570547] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /home/user1/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.571613] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /home/user1/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[3.572836] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/user1/ros2_ws/build/py_pubsub/install.log'\n"}
+[3.630524] (-) TimerEvent: {}
+[3.638771] (py_pubsub) CommandEnded: {'returncode': 0}
+[3.690203] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[3.694907] (-) EventReactorShutdown: {}
