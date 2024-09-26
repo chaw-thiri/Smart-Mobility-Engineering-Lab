@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.001348] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001558] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001763] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001917] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.002072] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.002259] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.002417] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.002570] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.002762] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.002912] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.003064] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.003217] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.003366] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.003520] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.003672] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.003836] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.003986] (-) JobUnselected: {'identifier': 'my_package'}
+[0.004139] (-) JobUnselected: {'identifier': 'py_pubsub'}
+[0.004292] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.004468] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
+[0.004635] (py_srvcli) JobQueued: {'identifier': 'py_srvcli', 'dependencies': OrderedDict([('tutorial_interfaces', '/home/user1/ros2_ws/install/tutorial_interfaces')])}
+[0.004851] (py_srvcli) JobStarted: {'identifier': 'py_srvcli'}
+[0.096396] (-) TimerEvent: {}
+[0.197878] (-) TimerEvent: {}
+[0.298866] (-) TimerEvent: {}
+[0.406077] (-) TimerEvent: {}
+[0.506928] (-) TimerEvent: {}
+[0.607722] (-) TimerEvent: {}
+[0.708510] (-) TimerEvent: {}
+[0.809354] (-) TimerEvent: {}
+[0.910017] (-) TimerEvent: {}
+[1.011269] (-) TimerEvent: {}
+[1.112417] (-) TimerEvent: {}
+[1.213090] (-) TimerEvent: {}
+[1.314028] (-) TimerEvent: {}
+[1.414986] (-) TimerEvent: {}
+[1.516007] (-) TimerEvent: {}
+[1.616819] (-) TimerEvent: {}
+[1.717527] (-) TimerEvent: {}
+[1.818315] (-) TimerEvent: {}
+[1.919067] (-) TimerEvent: {}
+[2.019769] (-) TimerEvent: {}
+[2.122494] (-) TimerEvent: {}
+[2.223562] (-) TimerEvent: {}
+[2.324650] (-) TimerEvent: {}
+[2.380252] (py_srvcli) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_srvcli', 'build', '--build-base', '/home/user1/ros2_ws/build/py_srvcli/build', 'install', '--record', '/home/user1/ros2_ws/build/py_srvcli/install.log', '--install-scripts', '$base/lib/py_srvcli', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/user1/ros2_ws/src/py_srvcli', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'USER': 'user1', 'SSH_AGENT_PID': '1152', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user1/ros2_ws/install/tutorial_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/user1', 'OLDPWD': '/home/user1', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '946', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/foxy/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'user1', 'JOURNAL_STREAM': '8:47431', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user1', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '1', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu:@/tmp/.ICE-unix/1187,unix/ubuntu:/tmp/.ICE-unix/1187', 'INVOCATION_ID': '744fcab11b61403b9ca63b24c954e869', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/6514a4e6_cadd_4c89_bcb9_b8ff8cf0b0a1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '1', 'AMENT_PREFIX_PATH': '/home/user1/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user1/ros2_ws/build/py_srvcli', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user1/ros2_ws/build/py_srvcli/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws/install/py_srvcli/lib/python3.8/site-packages:/home/user1/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/user1/ros2_ws/install/tutorial_interfaces'}, 'shell': False}
+[2.424997] (-) TimerEvent: {}
+[2.526605] (-) TimerEvent: {}
+[2.627678] (-) TimerEvent: {}
+[2.728423] (-) TimerEvent: {}
+[2.829143] (-) TimerEvent: {}
+[2.929889] (-) TimerEvent: {}
+[3.030972] (-) TimerEvent: {}
+[3.131838] (-) TimerEvent: {}
+[3.185517] (py_srvcli) StdoutLine: {'line': b'running egg_info\n'}
+[3.187839] (py_srvcli) StdoutLine: {'line': b'writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO\n'}
+[3.190166] (py_srvcli) StdoutLine: {'line': b'writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt\n'}
+[3.191701] (py_srvcli) StdoutLine: {'line': b'writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt\n'}
+[3.192554] (py_srvcli) StdoutLine: {'line': b'writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt\n'}
+[3.193477] (py_srvcli) StdoutLine: {'line': b'writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt\n'}
+[3.233756] (-) TimerEvent: {}
+[3.323692] (py_srvcli) StdoutLine: {'line': b"reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[3.326251] (py_srvcli) StdoutLine: {'line': b"writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'\n"}
+[3.326844] (py_srvcli) StdoutLine: {'line': b'running build\n'}
+[3.327215] (py_srvcli) StdoutLine: {'line': b'running build_py\n'}
+[3.327821] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/service_member_function.py -> /home/user1/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[3.328446] (py_srvcli) StdoutLine: {'line': b'copying py_srvcli/client_member_function.py -> /home/user1/ros2_ws/build/py_srvcli/build/lib/py_srvcli\n'}
+[3.329312] (py_srvcli) StdoutLine: {'line': b'running install\n'}
+[3.331802] (py_srvcli) StdoutLine: {'line': b'running install_lib\n'}
+[3.333980] (-) TimerEvent: {}
+[3.334923] (py_srvcli) StdoutLine: {'line': b'copying /home/user1/ros2_ws/build/py_srvcli/build/lib/py_srvcli/service_member_function.py -> /home/user1/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[3.335488] (py_srvcli) StdoutLine: {'line': b'copying /home/user1/ros2_ws/build/py_srvcli/build/lib/py_srvcli/client_member_function.py -> /home/user1/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli\n'}
+[3.336726] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/user1/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/service_member_function.py to service_member_function.cpython-38.pyc\n'}
+[3.341544] (py_srvcli) StdoutLine: {'line': b'byte-compiling /home/user1/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli/client_member_function.py to client_member_function.cpython-38.pyc\n'}
+[3.343943] (py_srvcli) StdoutLine: {'line': b'running install_data\n'}
+[3.344439] (py_srvcli) StdoutLine: {'line': b'copying package.xml -> /home/user1/ros2_ws/install/py_srvcli/share/py_srvcli\n'}
+[3.344852] (py_srvcli) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.351068] (py_srvcli) StdoutLine: {'line': b"removing '/home/user1/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[3.351859] (py_srvcli) StdoutLine: {'line': b'Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/user1/ros2_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info\n'}
+[3.354261] (py_srvcli) StdoutLine: {'line': b'running install_scripts\n'}
+[3.412109] (py_srvcli) StdoutLine: {'line': b'Installing client script to /home/user1/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[3.413631] (py_srvcli) StdoutLine: {'line': b'Installing service script to /home/user1/ros2_ws/install/py_srvcli/lib/py_srvcli\n'}
+[3.415507] (py_srvcli) StdoutLine: {'line': b"writing list of installed files to '/home/user1/ros2_ws/build/py_srvcli/install.log'\n"}
+[3.434338] (-) TimerEvent: {}
+[3.471826] (py_srvcli) CommandEnded: {'returncode': 0}
+[3.510217] (py_srvcli) JobEnded: {'identifier': 'py_srvcli', 'rc': 0}
+[3.513755] (-) EventReactorShutdown: {}
